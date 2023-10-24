@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Dongle:wght@700&family=Gabarito:wght@700&family=Gothic+A1:wght@300;600&family=Jost:wght@800&family=Montserrat&family=Rubik+Mono+One&family=Unbounded:wght@200;500&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFF08C;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    margin: 15px 15px;
+    width: 30%;
+    height: 30%;
+}
+
+h1 {
+    color: #F664AF;
+    display: inline;
+    font-size: 40px;
+    margin: 0 70px ;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+a {
+    text-decoration: none;
+    margin: 0 70px;
+    font-size: 25px;
+    color: #F664AF;
+    font-family: 'Unbounded', sans-serif;
+    white-space: nowrap;
+}
+
+.slaider {
+    background-image: url(image/baner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+}
+
+.skills {
+    background-color: #FFF08C;
+}
+
+h2 {
+    color: #F664AF;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0 30px 120px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.design {
+    width: 40%;
+}
+
+.designp {
+    font-size: 20px;
+    color: #F664AF;
+    font-weight: 700;
+}
+
+.progress {
+    width: 500px;
+    height: 40px;
+    background-color: #fc9fcf;
+    border-radius: 10px;
+}
+
+.programing {
+    width: 40%;
+}
+
+.programingp {
+    font-size: 20px;
+    color: #F664AF;
+    font-weight: 700;
+}
+
+.portfolio {
+    background-color: #fc9fcf;
+}
+
+h3 {
+    color: #FFF08C;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0 30px 0 ;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.works {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.workp {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF08C;
+    text-align: center;
+    margin: 15px 0 30px 0;
+}
+
+.services {
+    background-color: #FFF08C;
+}
+
+h4 {
+    color: #F664AF;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0 30px 180px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.servicep {
+    font-size: 25px;
+    color: #F664AF;
+    font-weight: 700;
+    width: 30%;
+}
+
+.price {
+    font-weight: 900;
+    color: #F664AF;
+    font-size: 25px;
+    width: 20%;
+}
+
+.btn {
+    width: 300px;
+    height: 45px;
+    background-color: #fc9fcf;
+    border-radius: 10px;
+    border: none;
+    color: #FFF08C;
+    font-size: 25px;
+    width: 30%;
+    font-weight: 600;
+}
+
+.contacts {
+    background-color: #fc9fcf;
+    padding-bottom: 40px;
+
+}
+
+h5 {
+    color: #FFF08C;
+    font-size: 30px;
+    margin: 0;
+    padding: 30px 0 30px 180px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon {
+    width: 10%;
+}
+
+.iconimg {
+    width: 60%;
+}
+
+.phone {
+    width: 20%;
+}
+
+.phonep {
+    font-weight: 900;
+    color: #FFF08C;
+    font-size: 25px;
+    padding: 20px 0 20px 120px;
+}
+
+.myphoto {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer {
+    background-color: #F664AF;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #FFF08C;
+}
