@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine Design</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body class="body lightTheme">
+    <header>
+        <div class="logo">
+            <img src="image/Лого1.PNG" class="logoimg" alt="логотип компании">
+            <h1>Shine Design</h1>
+        </div>
+        <div class="nav">
+            <a href="index.html">главная</a>
+            <a href="#cont">контакты</a>
+        </div>
+        <input type="button" value="тёмная тема" class="themeButton">
+    </header>
+    <main>
+        <section class="feedback">
+            <h2>Форма обратной связи</h2>
+            <form action="">
+                <div class="name"> 
+                    <div class="name1">
+                        <label for="name">ФИО</label>
+                    <input type="text" placeholder="Введите имя" id="name">
+                    </div>
+                    <div class="pustota"></div>
+                    <div class="name1">
+                        <label for="number">Номер телефона</label>
+                    <input type="text" placeholder="Введите телефон" id="number">
+                    </div>
+                </div>
+                <div class="name"> 
+                    <div class="name1">
+                        <label for="city">Город</label>
+                    <input type="text" placeholder="Укажите город проживания" id="city">
+                    </div>
+                    <div class="pustota"></div>
+                    <div class="name1">
+                        <label for="email">Почта</label>
+                    <input type="text" placeholder="Введите почту" id="email">
+                    </div>
+                </div>
+                <div class="name1">
+                    <label for="comment">Опишите свою проблему или оставьте отзыв</label>
+                <textarea name="" id="comment" cols="30" rows="10" placeholder="Комментарии"></textarea>
+                </div>
+                <button class="button">Отправить</button>
+            </form>
+        </section>
+        <section class="contacts" id="cont">
+            <h5>Контакты</h5>
+            <div class="contact">
+                <div class="icon">
+                    <img src="image/Тг.PNG" alt="Телеграмм" class="iconimg">
+                    <img src="image/Инст.PNG" alt="Инстаграмм" class="iconimg">
+                </div>
+                <div class="phone">
+                    <p class="phonep">+7 777 77 77</p>
+                    <p class="phonep">shinedesign@gmail.com</p>
+                    <p class="phonep">телеграмм</p>
+                    <p class="phonep">ватсап</p>
+                </div>
+                <div class="myphoto"><img src="image/контакты.png" alt="моё фото"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footerp">
+            shine design@2023 все права защищены
+        </p>
+    </footer>   
+    <script src="script.js"></script>
+</body>
+</html>

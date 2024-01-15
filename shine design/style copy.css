@@ -192,12 +192,22 @@ h3 {
     animation: anim 2s 1;
 }
 
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
 .works {
-    display: flex;
-    justify-content: space-evenly;
+    display: flex !important;
     align-items: center;
     animation: anim 2s 1;
     width: 100%;
+}
+
+.work {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 30px;
 }
 
 .workimg {
@@ -600,6 +610,71 @@ footer {
     h1 {
        margin-left: 10px;
        font-size: 26px;
+    }
+
+    .burger-menu {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        transition: 0.3s ease;
+    }
+
+    .burger-menu::before,
+    .burger-menu::after {
+        content: ''; /* пустой контент */
+        background: #F664AF; /*цвет бургера*/
+        position: absolute; /* позиция для общего блока*/
+        width: 100%; /* ширина*/
+        height: 2px; /* толщина полосок бургера */
+        transition: 0.3s ease;
+    }
+
+    .burger-menu::before {
+        top: 0; /* расположение верхней линии бургера */
+    }
+
+    .burger-menu span { /*средняя линия в виде span*/
+        background: #F664AF;
+        position: absolute; 
+        width: 100%;
+        top: 9px;
+        height: 2px; 
+    }
+    .burger-menu::after {
+        bottom: 0; /* расположение нижней линии бургера */
+    }
+
+    .nav {
+        transform: translateX(100%);
+    }
+
+    /* active */
+
+    .burger-menu.active {
+        z-index: 3;
+        transform: translateX(-40vw);
+        transition: 0.3s ease;
+    }
+
+    .burger-menu.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+        transition: 0.3s ease;
+    }
+    .burger-menu.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        transition: 0.3s ease;
+    }
+
+    .burger-menu.active span {
+        transform: scale(0);
+    }
+
+    .main-nav.active {
+       transition: translate(0);
+       transition: 0.3s ease;
     }
 
     .aboutm {
